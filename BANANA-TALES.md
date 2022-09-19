@@ -20,9 +20,22 @@ for i in range(-1,11):
 
 for i in range(-1,11):
     if obstacles[i].is_ice():
-    dragon.fire_at(obstacles[i])
+        dragon.fire_at(obstacles[i])
+dragon.smash(obstacles[7])
 
 ````
+````
+# Solution in 4 lines
+# 0, 2, 4, 6, 8, 10 then destroy blocking block
+
+for obstacle in obstacles:
+    if obstacle.is_ice():
+        dragon.fire_at(obstacle)
+dragon.smash(obstacles[7])
+````
+
+
+
 
 # BANANA TALES: CHALLENGE 52 - IF ELSE
 ````
