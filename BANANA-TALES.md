@@ -3,6 +3,15 @@
 for obstacle in obstacles:
     if obstacle.is_ice():
         dragon.fire_at(obstacle)
+    else:
+        dragon.smash(obstacle)
+````
+
+# OR
+````
+for obstacle in obstacles:
+    if obstacle.is_ice():
+        dragon.fire_at(obstacle)
     if obstacle.is_fence():
         dragon.smash(obstacle)
 ````
