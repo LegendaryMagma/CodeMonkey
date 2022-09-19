@@ -5,24 +5,9 @@
 #  8, 10
 # skip 6
 
-for index in range(-1,3):
-    for obstacle in obstacles:
-        if obstacles[index].is_ice():
-            dragon.fire_at(obstacles[index])
-            index = 3
-            
-for index in range(3,5):
-    for obstacle in obstacles:
-        if obstacles[index].is_ice():
-            dragon.fire_at(obstacles[index])
-            index = 5
-            
-for index in range(7,11):
-    for obstacle in obstacles:
-        if obstacles[index].is_ice():
-            dragon.fire_at(obstacles[index])
-            index = 9
-
+for index in range(-1,11):
+    if obstacles[index].is_ice():
+        dragon.fire_at(obstacles[index])
 ````
 
 # BANANA TALES: CHALLENGE 52 - IF ELSE
