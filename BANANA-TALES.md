@@ -1,8 +1,9 @@
 # BANANA TALES: CHALLENGE 53 - IF ELSE
+
+````
 # 0, 2, 4 
 #  8, 10
 # skip 6
-````
 for index in range(-1,1):
     for obstacle in obstacles:
         if obstacles[index].is_ice():
