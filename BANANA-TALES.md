@@ -1,3 +1,12 @@
+# BANANA TALES: CHALLENGE 54 - IF ELSE
+````
+for obstacle in obstacles:
+    if obstacle.is_box():
+        dragon.smash(obstacle)
+````
+
+
+
 # BANANA TALES: CHALLENGE 53 - IF ELSE
 
 ````
