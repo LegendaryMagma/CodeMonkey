@@ -1,3 +1,13 @@
+# BANANA TALES: CHALLENGE 57 - IF ELSE
+````
+for obstacle in obstacles:
+    if obstacle.is_ice():
+        dragon.fire_at(obstacle)
+    if obstacle.is_fence():
+        dragon.smash(obstacle)
+````
+
+
 # BANANA TALES: CHALLENGE 56 - IF ELSE
 ````
 for obstacle in obstacles:
