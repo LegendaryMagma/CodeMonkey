@@ -78,3 +78,10 @@ for obstacle in obstacles:
     if obstacle.is_ice():
         dragon.fire_at(obstacle)
 ````
+# BANANA TALES: CHALLENGE 52 - IF ELSE
+````
+# nb need to build three crates manually before running code
+for obstacle in obstacles:
+    if obstacle.is_ice():
+        dragon.fire_at(obstacle)
+````
