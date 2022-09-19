@@ -1,16 +1,27 @@
 # BANANA TALES: CHALLENGE 53 - IF ELSE
 
 ````
+# Solution in 6 lines
 # 0, 2, 4 
 #  8, 10
 # skip 6
 
 for i in range(-1,11):
     if i == 6:
-        
+        # do nothing
     else:
         if obstacles[i].is_ice():
            dragon.fire_at(obstacles[i])
+````
+
+````
+# Solution in 4 lines
+# 0, 2, 4, 6, 8, 10 then destroy blocking block
+
+for i in range(-1,11):
+    if obstacles[i].is_ice():
+    dragon.fire_at(obstacles[i])
+
 ````
 
 # BANANA TALES: CHALLENGE 52 - IF ELSE
