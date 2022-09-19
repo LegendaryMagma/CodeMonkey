@@ -4,13 +4,8 @@
 # 0, 2, 4 
 #  8, 10
 # skip 6
-for index in range(-1,1):
-    for obstacle in obstacles:
-        if obstacles[index].is_ice():
-            dragon.fire_at(obstacles[index])
-            index = 1
-            
-for index in range(1,3):
+
+for index in range(-1,3):
     for obstacle in obstacles:
         if obstacles[index].is_ice():
             dragon.fire_at(obstacles[index])
@@ -21,18 +16,12 @@ for index in range(3,5):
         if obstacles[index].is_ice():
             dragon.fire_at(obstacles[index])
             index = 5
-
-for index in range(7,9):
+            
+for index in range(7,11):
     for obstacle in obstacles:
         if obstacles[index].is_ice():
             dragon.fire_at(obstacles[index])
             index = 9
-
-for index in range(9,11):
-    for obstacle in obstacles:
-        if obstacles[index].is_ice():
-            dragon.fire_at(obstacles[index])
-            index = 11
 
 ````
 
