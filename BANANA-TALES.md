@@ -60,3 +60,10 @@ for index in range(len(giraffes)):
     giraffes[index+1].height = goal_height 
     goal_height = goal_height - 1
 ````
+
+# BANANA TALES: CHALLENGE 49 - IF ELSE
+````
+for index in range(0,4):
+    dragon.smash(obstacles[index])
+````
+
