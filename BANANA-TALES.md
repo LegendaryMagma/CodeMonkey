@@ -105,7 +105,6 @@ for index in range(len(giraffes)):
 
 ````
 
-````
 
 # BANANA-TALES-CHALLENGE 44 - VARIABLES
 
