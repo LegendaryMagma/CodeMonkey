@@ -67,3 +67,8 @@ for index in range(0,4):
     dragon.smash(obstacles[index])
 ````
 
+# BANANA TALES: CHALLENGE 50 - IF ELSE
+````
+for index in range(0,6):
+    dragon.fire_at(obstacles[index])
+````
