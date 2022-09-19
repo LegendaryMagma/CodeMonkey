@@ -1,3 +1,13 @@
+# BANANA TALES: CHALLENGE 56 - IF ELSE
+````
+for obstacle in obstacles:
+    if obstacle.is_ice():
+        dragon.fire_at(obstacle)
+    else:
+        dragon.smash(obstacle)
+````
+
+
 # BANANA TALES: CHALLENGE 55 - IF ELSE
 ````
 # Need to manually plant 3x crates in holes in road!
