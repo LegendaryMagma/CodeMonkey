@@ -72,3 +72,9 @@ for index in range(0,4):
 for index in range(0,6):
     dragon.fire_at(obstacles[index])
 ````
+# BANANA TALES: CHALLENGE 51 - IF ELSE
+````
+for obstacle in obstacles:
+    if obstacle.is_ice():
+        dragon.fire_at(obstacle)
+````
