@@ -1,3 +1,40 @@
+# BANANA TALES: CHALLENGE 53 - IF ELSE
+# 0, 2, 4 
+#  8, 10
+# skip 6
+
+for index in range(-1,1):
+    for obstacle in obstacles:
+        if obstacles[index].is_ice():
+            dragon.fire_at(obstacles[index])
+            index = 1
+            
+for index in range(1,3):
+    for obstacle in obstacles:
+        if obstacles[index].is_ice():
+            dragon.fire_at(obstacles[index])
+            index = 3
+            
+for index in range(3,5):
+    for obstacle in obstacles:
+        if obstacles[index].is_ice():
+            dragon.fire_at(obstacles[index])
+            index = 5
+
+for index in range(7,9):
+    for obstacle in obstacles:
+        if obstacles[index].is_ice():
+            dragon.fire_at(obstacles[index])
+            index = 9
+
+for index in range(9,11):
+    for obstacle in obstacles:
+        if obstacles[index].is_ice():
+            dragon.fire_at(obstacles[index])
+            index = 11
+
+
+
 # BANANA TALES: CHALLENGE 52 - IF ELSE
 ````
 # nb need to build three crates manually before running code
