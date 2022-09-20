@@ -1,3 +1,16 @@
+# BANANA TALES: CHALLENGE 65 - WHILE LOOPS
+````
+for index in range(len(wells)):
+    print("Index is:")
+    print(index)
+    print("Max water level is:")
+    print(wells[index].max_water_level)
+    print("Water level is:")
+    print(wells[index].water_level)
+    while wells[index].water_level < wells[index].max_water_level:
+        elephants[index].spray_at(wells[index])
+````
+
 # BANANA TALES: CHALLENGE 64 - WHILE LOOPS
 ````
 for index in range(len(wells)):
