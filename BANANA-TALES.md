@@ -1,3 +1,9 @@
+# BANANA TALES: CHALLENGE 79 - BOOLEAN OPERATORS
+````
+for obstacle in obstacles:
+    if obstacle.is_ice() and not obstacle.is_on_ground():
+        dragon.fire_at(obstacle)
+````
 # BANANA TALES: CHALLENGE 78 - BOOLEAN OPERATORS
 ````
 for index in range(len(wells)):
