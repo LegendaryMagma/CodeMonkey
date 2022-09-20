@@ -1,3 +1,10 @@
+# BANANA TALES: CHALLENGE 76 - BOOLEAN OPERATORS
+````
+for well in wells:
+    print(well.crocodile.mouth_closed)
+    if not well.crocodile.mouth_closed:
+        well.crocodile.toggle()
+````
 # BANANA TALES: CHALLENGE 75 - BOOLEAN OPERATORS
 ````
 if not well.crocodile.mouth_closed:
