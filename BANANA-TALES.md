@@ -1,6 +1,6 @@
 # BANANA TALES: CHALLENGE 69 - BOOLEAN OPERATORS
-# Drag 3 obstacles from the top corner and place them in the game. Drag obstacles that the dragon will not destroy.
 ````
+# Drag 3 obstacles from the top corner and place them in the game. Drag obstacles that the dragon will not destroy.
 for obstacle in obstacles:
     if obstacle.is_box() and obstacle.is_on_ground():
         dragon.smash(obstacle)
