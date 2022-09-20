@@ -1,11 +1,24 @@
-# BANANA TALES: CHALLENGE 79 - BOOLEAN OPERATORS
+# BANANA TALES: CHALLENGE 79 - FUNCTIONS
 ````
+while well_1.water_level < well_1.max_water_level:
+    elephant_2.spray_at(well_1)
+while well_2.water_level < well_2.max_water_level:
+    elephant_3.spray_at(well_2)
+while well_3.water_level < well_3.max_water_level:
+    elephant_1.spray_at(well_3)
+````
+# BANANA TALES: CHALLENGE 78 - BOOLEAN OPERATORS
+````
+# Solution in 3 lines
 for obstacle in obstacles:
     if obstacle.is_ice() and not obstacle.is_on_ground():
         dragon.fire_at(obstacle)
 ````
+OR
+
 # BANANA TALES: CHALLENGE 78 - BOOLEAN OPERATORS
 ````
+# Solution in 5 lines
 for index in range(len(wells)):
     if not wells[index].crocodile.mouth_closed:
         wells[index].crocodile.toggle()
