@@ -1,3 +1,12 @@
+# BANANA TALES: CHALLENGE 75 - BOOLEAN OPERATORS
+````
+if not well.crocodile.mouth_closed:
+    well.crocodile.toggle()
+# Don't forget to fill the well.
+
+while well.water_level < well.max_water_level:
+    elephant.spray_at(well)
+````
 # BANANA TALES: CHALLENGE 74 - BOOLEAN OPERATORS
 ````
 for obstacle in obstacles:
