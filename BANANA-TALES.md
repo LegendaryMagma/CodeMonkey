@@ -1,3 +1,19 @@
+# BANANA TALES: CHALLENGE 80 - FUNCTIONS
+````
+# fill_well is a function that gets two parameters:
+# a well and an elephant.
+# The elephant fills the well.
+def fill_well(well, elephant):
+    while well.water_level < well.max_water_level:
+        elephant.spray_at(well)
+
+# Use the function to fill all the wells.
+# Check for each well, which elephant should fill it.
+fill_well(well_1, elephant_3)
+fill_well(well_2, elephant_4)
+fill_well(well_3, elephant_1)
+fill_well(well_4, elephant_2)
+````
 # BANANA TALES: CHALLENGE 79 - FUNCTIONS
 ````
 while well_1.water_level < well_1.max_water_level:
