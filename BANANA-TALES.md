@@ -1,3 +1,10 @@
+
+# BANANA TALES: CHALLENGE 72 - BOOLEAN OPERATORS
+````
+for obstacle in obstacles:
+    if obstacle.is_box() or obstacle.is_fence():
+        dragon.smash(obstacle)
+````
 # BANANA TALES: CHALLENGE 71 - BOOLEAN OPERATORS
 ````
 for obstacle in obstacles:
