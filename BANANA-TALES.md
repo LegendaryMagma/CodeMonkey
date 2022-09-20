@@ -1,3 +1,14 @@
+# BANANA TALES: CHALLENGE 63 - WHILE LOOPS
+
+````
+while wells[1].water_level < wells[1].max_water_level:
+    elephants[1].spray_at(wells[1])
+while wells[0].water_level < wells[0].max_water_level:
+    elephants[0].spray_at(wells[0])
+````
+
+
+
 # BANANA TALES: CHALLENGE 57 - IF ELSE
 ````
 for obstacle in obstacles:
