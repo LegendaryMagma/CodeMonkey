@@ -1,3 +1,47 @@
+# BANANA TALES: CHALLENGE 85 - FUNCTIONS
+````
+def fill_well(well, elephant):
+    while well.water_level < well.max_water_level:
+        elephant.spray_at(well)
+    if not well.crocodile.mouth_closed:
+        well.crocodile.toggle()
+        
+fill_well(wells[0], elephants[0])
+fill_well(wells[1], elephants[2])
+fill_well(wells[2], elephants[3])
+fill_well(wells[3], elephants[1])
+````
+# BANANA TALES: CHALLENGE 84 - FUNCTIONS
+````
+def fill_well(well, elephant):
+    while well.water_level < well.max_water_level:
+        elephant.spray_at(well)
+    if not well.crocodile.mouth_closed:
+        well.crocodile.toggle()
+    
+
+# This code is correct, once the function is fixed.
+fill_well(wells[0], elephants[1])
+fill_well(wells[1], elephants[3])
+fill_well(wells[2], elephants[2])
+fill_well(wells[3], elephants[0])
+````
+# BANANA TALES: CHALLENGE 83 - FUNCTIONS
+````
+# Define the function fill_well that will have
+# an elephant spraying at a well.
+def fill_well(elephant, well):
+    while well.water_level < well.max_water_level:
+        elephant.spray_at(well)
+fill_well(elephant_1, well_1)
+fill_well(elephant_2, well_2)    
+fill_well(elephant_3, well_3)
+fill_well(elephant_4, well_4)
+
+# Use the function four times,
+# each time with a different well and elephant.
+````
+
 # BANANA TALES: CHALLENGE 82 - FUNCTIONS
 ````
 def fill_well(well, elephant):
