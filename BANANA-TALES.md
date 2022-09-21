@@ -1,3 +1,19 @@
+# BANANA TALES: CHALLENGE 86 - FUNCTIONS
+````
+def handle_boxes(obstacle):
+    if obstacle.is_box():
+        # Smash the boxes
+        
+
+# Once the function handle_boxes is fixed, this code is correct
+handle_boxes(obstacle_1)
+handle_boxes(obstacle_2)
+handle_boxes(obstacle_3)
+handle_boxes(obstacle_4)
+handle_boxes(obstacle_5)
+handle_boxes(obstacle_6)
+handle_boxes(obstacle_7)
+````
 # BANANA TALES: CHALLENGE 85 - FUNCTIONS
 ````
 def fill_well(well, elephant):
