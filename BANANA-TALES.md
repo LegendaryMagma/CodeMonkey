@@ -1,3 +1,21 @@
+# BANANA TALES: CHALLENGE 87 - FUNCTIONS
+````
+def handle_obstacle(obstacle):
+    if obstacle.is_box():
+        dragon.smash(obstacle)
+    else:
+        dragon.fire_at(obstacle)
+    
+    
+
+# Once the function handle_obstacle is fixed, this code is correct
+handle_obstacle(obstacle_1)
+handle_obstacle(obstacle_2)
+handle_obstacle(obstacle_3)
+handle_obstacle(obstacle_4)
+handle_obstacle(obstacle_5)
+````
+
 # BANANA TALES: CHALLENGE 86 - FUNCTIONS
 ````
 def handle_boxes(obstacle):
