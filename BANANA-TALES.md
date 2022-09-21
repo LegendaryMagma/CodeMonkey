@@ -1,3 +1,26 @@
+# BANANA TALES: CHALLENGE 82 - FUNCTIONS
+````
+def fill_well(well, elephant):
+    while well.water_level < well.max_water_level:
+        elephant.spray_at(well)
+fill_well(well_1, elephant_3)
+fill_well(well_2, elephant_1)
+fill_well(well_3, elephant_2)
+````
+
+
+
+
+# BANANA TALES: CHALLENGE 81 - FUNCTIONS
+````
+def fill_well(well, elephant):
+    while well.water_level < well.max_water_level:
+        elephant.spray_at(well)
+        
+fill_well(well_1, elephant_2)
+fill_well(well_2, elephant_3)
+fill_well(well_3, elephant_1)
+````
 # BANANA TALES: CHALLENGE 80 - FUNCTIONS
 ````
 # fill_well is a function that gets two parameters:
