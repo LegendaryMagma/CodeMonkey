@@ -1,0 +1,52 @@
+# BANANA TALES: CHALLENGE 91 - CLASSES
+````
+class Drill:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    def drill_right(self):
+        self.x = self.x + 2
+
+# Define instances of Drill, each with the correct x & y.
+drill_1 = Drill(3,10)
+drill_2 = Drill(5,8)
+drill_3 = Drill(7,12)
+
+
+# Drill through the brick walls.
+drill_1.drill_right()
+drill_2.drill_right()
+drill_3.drill_right()
+````
+# BANANA TALES: CHALLENGE 89 - CLASSE
+````
+class Drill:
+    def __init__(self):
+        self.x = 2
+        self.y = 13
+    
+    def drill_right(self):
+        self.x = self.x + 2
+
+drill_1 = Drill()
+
+# Drill a brick.
+drill_1.drill_right()
+
+# Drill another brick.
+drill_1.drill_right()
+````
+
+# BANANA TALES: CHALLENGE 88 - CLASSES
+````
+class Drill:
+    def __init__(self):
+        self.x = 9
+        self.y = 13
+    
+    def drill_right(self):
+        self.x = self.x + 2
+
+drill_1 = Drill()
+drill_1.drill_right()
+````
