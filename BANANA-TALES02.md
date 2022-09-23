@@ -18,6 +18,24 @@ drill_1.drill_right()
 drill_2.drill_right()
 drill_3.drill_right()
 ````
+# BANANA TALES: CHALLENGE 90 - CLASSES
+````
+class Drill:
+    def __init__(self):
+        self.x = 6
+        self.y = 12
+    
+    def drill_right(self):
+        self.x = self.x + 2
+
+drill_1 = Drill()
+
+# Drill through three bricks.
+
+for index in range(3):
+    drill_1.drill_right()
+````
+
 # BANANA TALES: CHALLENGE 89 - CLASSES
 ````
 class Drill:
