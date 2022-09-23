@@ -18,7 +18,7 @@ drill_1.drill_right()
 drill_2.drill_right()
 drill_3.drill_right()
 ````
-# BANANA TALES: CHALLENGE 89 - CLASSE
+# BANANA TALES: CHALLENGE 89 - CLASSES
 ````
 class Drill:
     def __init__(self):
