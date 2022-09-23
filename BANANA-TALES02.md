@@ -1,9 +1,9 @@
 # BANANA TALES02
-# Before starting these lessons watch:
+Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
 
-# BANANA TALES: CHALLENGE 91 - CLASSES
+#BANANA TALES: CHALLENGE 91 - CLASSES
 ````
 class Drill:
     def __init__(self, x, y):
