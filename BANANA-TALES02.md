@@ -11,13 +11,19 @@ class Drill:
 drill_1 = Drill(3,10)
 drill_2 = Drill(5,8)
 drill_3 = Drill(7,12)
+drill_4 = Drill(7,13)
 
 
 # Drill through the brick walls.
 drill_1.drill_right()
 drill_2.drill_right()
-drill_3.drill_right()
+for index in range(3):
+    drill_3.drill_right()
+    drill_4.drill_right()
 ````
+
+
+
 # BANANA TALES: CHALLENGE 90 - CLASSES
 ````
 class Drill:
