@@ -16,6 +16,10 @@ handle_obstacle(obstacle_4)
 handle_obstacle(obstacle_5)
 ````
 
+````
+This is a code block too
+````
+
 # BANANA TALES: CHALLENGE 86 - FUNCTIONS
 ````
 def handle_boxes(obstacle):
