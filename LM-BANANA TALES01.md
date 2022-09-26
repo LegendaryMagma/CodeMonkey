@@ -421,7 +421,16 @@ for index in range(len(giraffes)):
     giraffes[index].height = goal_height 
 
 ````
+#OR
 
+# BANANA TALES: CHALLENGE 45 - VARIABLES
+````
+height = 4
+
+for giraffe in giraffes:
+    giraffe.height = height
+    height = height + 1
+````
 # BANANA TALES: CHALLENGE 44 - VARIABLES
 ````
 goal_height = giraffes[0].height
