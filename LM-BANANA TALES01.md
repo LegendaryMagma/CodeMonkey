@@ -432,7 +432,18 @@ for index in range(len(giraffes)):
     giraffes[index].height = goal_height      
 ````
 
+# BANANA-TALES-CHALLENGE42-VARIABLES
 
+````
+# The variable goal_height holds the desired height.
+goal_height = giraffes[0].height
+print("goal_height is:")
+print(goal_height)
+
+for index in range(0,8):
+    # use goal_height to change the giraffes' heights
+    giraffes[index].height = goal_height
+````
 
 # BANANA-TALES-CHALLENGE 40 - RANGE  
 ```
