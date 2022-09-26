@@ -440,7 +440,7 @@ goal_height = giraffes[0].height
 print("goal_height is:")
 print(goal_height)
 
-for index in range(0,8):
+for index in range(1,8):
     # use goal_height to change the giraffes' heights
     giraffes[index].height = goal_height
 ````
