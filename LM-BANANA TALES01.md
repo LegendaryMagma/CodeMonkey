@@ -1,3 +1,5 @@
+liam completed up to 50 on wednesday
+
 # BANANA TALES: CHALLENGE 87 - FUNCTIONS
 ````
 def handle_obstacle(obstacle):
