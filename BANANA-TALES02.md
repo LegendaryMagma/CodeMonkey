@@ -2,6 +2,19 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+
+# BANANA TALES CHALLENGE 107 - STRINGS
+```
+password = ""
+code = gates[2].code
+for index in range(1, len(code)):
+    password = password + code[index]
+    print(index)
+    print(code[index])
+print(password)
+gates[2].open(password)
+```
+
 # BANANA TALES CHALLENGE 106 - STRINGS
 #two star solution
 password = ""
