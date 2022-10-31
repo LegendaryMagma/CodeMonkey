@@ -4,6 +4,8 @@ Before starting these lessons watch:
 
 
 # BANANA TALES CHALLENGE 100 - INTEGERS
+
+#one star solution
 ```
 #What is interesting is the way the snakes are named in this challenge.
 #The snakes in the challenge are:
@@ -22,8 +24,18 @@ snake.length = 2
 for snake in snakes:
     snake.length = int(input("Enter the snake's length: "))
 ```
+#three star solution - use --> int(input("Enter input") only twice
+```
+# BANANA TALES CHALLENGE 100 - INTEGERS
+# What is interesting is the way this challenge has been made.
+# The snakes in the challenge are:
+# snake, snakes[0], snakes[1], snakes[2], snakes[3]
 
-
+snake.length = 1
+for index in range(0,4):
+    index = int(input("Enter the snake's index: "))
+    snakes[index].length = int(input("Enter the snake's length: "))
+```
 # BANANA TALES CHALLENGE 99 - INTEGERS
 ```
 # Any input entered is a string, even digits.
