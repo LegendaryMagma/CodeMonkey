@@ -3,7 +3,18 @@ Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
 # BANANA TALES CHALLENGE 104 - STRINGS
+
 ```
+#three star solution
+# open gate[0] and gate[2]
+# gate[1] and gate[3] are open already
+for index in range(-1,4):
+    password = "ab" + gates[index].code + "yz"
+    gates[index].open(password)
+```
+
+```
+#two star solution
 #open gate[0] and gate[2]
 #gate[1] and gate[3] are open already
 password = "ab" + gates[0].code + "yz"
