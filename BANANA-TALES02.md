@@ -7,10 +7,9 @@ Before starting these lessons watch:
 ```
 password = ""
 code = gates[2].code
-for index in range(1, len(code)):
-    password = password + code[index]
-    print(index)
-    print(code[index])
+for index in range(1, len(code)): password = password + code[index]
+print(index)
+print(code[index])
 print(password)
 gates[2].open(password)
 ```
