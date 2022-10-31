@@ -6,7 +6,7 @@ Before starting these lessons watch:
 # BANANA TALES CHALLENGE 105 - STRINGS
 
 ```
-#three star solution
+#two star solution
 for index in range(-1,4):
     password = ""
     code = gates[index].code
@@ -19,7 +19,7 @@ for index in range(-1,4):
 
 
 ```
-#two star solution
+#one star solution
 password = ""
 code = gates[3].code
 for c in code:
