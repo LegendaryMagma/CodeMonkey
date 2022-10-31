@@ -3,6 +3,34 @@ Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
 
+#BANANA TALES: CHALLENGE 93 - CLASSES
+
+```
+class Drill:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def drill_right(self, count):
+        self.x = self.x + count
+
+drill_1 = Drill(1,13)
+drill_2 = Drill(5,12)
+drill_3 = Drill(9,11)
+drill_4 = Drill(13,10)
+
+# Define two more (total of four) instances of Drill.
+
+
+# Drill instances placed into a list.
+drills = [drill_1, drill_2, drill_3, drill_4]
+
+# Use a for loop.
+for index in drills:
+    index.drill_right(4)
+```
+
+
 #BANANA TALES: CHALLENGE 92 - CLASSES
 ```
 class Drill:
