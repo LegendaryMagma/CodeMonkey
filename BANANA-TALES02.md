@@ -2,6 +2,14 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+# BANANA TALES CHALLENGE 102 - STRINGS
+```password = gate_3.code
+print(password)
+
+gate_3.open(password)
+```
+
+
 # BANANA TALES CHALLENGE 101 - INTEGERS
 ```
 snake.length = 2
