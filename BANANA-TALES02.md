@@ -2,6 +2,23 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+#BANANA TALES: CHALLENGE 95 - INPUT
+
+```
+snake.length = 2
+
+print("Type 'up' or 'down'")
+answer = input()
+
+if answer == 'up':
+    height = 11
+else:
+    height = 4
+    
+giraffes[0].height = height
+giraffes[1].height = 
+```
+
 
 #BANANA TALES: CHALLENGE 93 - CLASSES
 
