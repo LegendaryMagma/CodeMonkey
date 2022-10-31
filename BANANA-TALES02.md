@@ -2,7 +2,42 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
-#BANANA TALES: CHALLENGE 98 - INTEGERS
+
+# BANANA TALES CHALLENGE 100 - INTEGERS
+```
+#What is interesting is the way the snakes are named in this challenge.
+#The snakes in the challenge are:
+#snake, snakes[0], snakes[1], snakes[2], snakes[3]
+#Why not just name them snakes[0], snake[1], snake[2], snake[3], snake[4]
+
+#input "snake length" as follows to complete the puzzle
+# >>> Enter the snake's length: 9
+# >>> Enter the snake's length: 7
+# >>> Enter the snake's length: 6
+# >>> Enter the snake's length: 4
+
+# set length of "snake"
+snake.length = 2
+# set length of "snake[0]", "snake[1]", "snake[2]", "snake[3]"
+for snake in snakes:
+    snake.length = int(input("Enter the snake's length: "))
+```
+
+
+# BANANA TALES CHALLENGE 99 - INTEGERS
+```
+# Any input entered is a string, even digits.
+# int() converts it to a number.
+# on run input the integer to match the giraffe height required to match the height that the pigeon drops 
+snake.length = 2
+for giraffe in giraffes:
+    giraffe.height = int(input("Enter the giraffe's height: "))
+```
+
+
+
+
+# BANANA TALES: CHALLENGE 98 - INTEGERS
 
 ```
 snake.length = 2
@@ -16,7 +51,7 @@ giraffe.height = height
 ```
 
 
-#BANANA TALES: CHALLENGE 97 - INPUT
+# BANANA TALES: CHALLENGE 97 - INPUT
 
 ```
 # if the pigeon lands on the ground you must input 'down' to be able to complete the puzzle
@@ -39,7 +74,7 @@ for giraffe in giraffes:
 ```
 
 
-#BANANA TALES: CHALLENGE 96 - INPUT
+# BANANA TALES: CHALLENGE 96 - INPUT
 
 ```
 # this puzzle requires 'down' be inputed to complete
@@ -58,7 +93,7 @@ for giraffe in giraffes:
     giraffe.height = height
 ```
 
-#BANANA TALES: CHALLENGE 95 - INPUT
+# BANANA TALES: CHALLENGE 95 - INPUT
 
 ```
 # this puzzle requires 'down' be inputed to complete
@@ -78,7 +113,7 @@ giraffes[1].height = height
 ```
 
 
-#BANANA TALES: CHALLENGE 93 - CLASSES
+# BANANA TALES: CHALLENGE 93 - CLASSES
 
 ```
 class Drill:
@@ -106,7 +141,7 @@ for index in drills:
 ```
 
 
-#BANANA TALES: CHALLENGE 92 - CLASSES
+# BANANA TALES: CHALLENGE 92 - CLASSES
 ```
 class Drill:
     def __init__(self, x, y):
