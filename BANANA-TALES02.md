@@ -5,6 +5,11 @@ Before starting these lessons watch:
 # BANANA TALES CHALLENGE 108 - STRINGS
 ```
 #three star solution
+for gate in gates:
+   password = ""
+   code = gate.code
+   for index in range(1, len(code)): password = password + code[index]
+   gate.open(password)
 ```
 
 
