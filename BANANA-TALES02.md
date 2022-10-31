@@ -2,6 +2,34 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+# BANANA TALES CHALLENGE 108 - STRINGS
+```
+#three star solution
+```
+
+
+```
+#two star solution
+password = ""
+code = gates[2].code
+for index in range(1, len(code)): password = password + code[index]
+gates[2].open(password)
+
+password = ""
+code = gates[3].code
+for index in range(1, len(code)): password = password + code[index]
+gates[3].open(password)
+
+password = ""
+code = gates[4].code
+for index in range(1, len(code)): password = password + code[index]
+gates[4].open(password)
+
+password = ""
+code = gates[5].code
+for index in range(1, len(code)): password = password + code[index]
+gates[5].open(password)
+```
 
 # BANANA TALES CHALLENGE 107 - STRINGS
 ```
