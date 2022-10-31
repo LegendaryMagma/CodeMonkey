@@ -2,6 +2,44 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+
+# BANANA TALES CHALLENGE 105 - STRINGS
+
+```
+#three star solution
+for index in range(-1,4):
+    password = ""
+    code = gates[index].code
+    for c in code:
+        password = password + c + c
+        print(password)
+    # Use password to open the gate.
+    gates[index].open(password)
+```
+
+
+```
+#two star solution
+password = ""
+code = gates[3].code
+for c in code:
+    password = password + c + c
+    print(password)
+# Use password to open the gate.
+gates[3].open(password)
+
+# Open the last gate.
+password = ""
+code = gates[4].code
+for c in code:
+    password = password + c + c
+    print(password)
+# Use password to open the gate.    
+gates[4].open(password)
+```
+
+
+
 # BANANA TALES CHALLENGE 104 - STRINGS
 
 ```
