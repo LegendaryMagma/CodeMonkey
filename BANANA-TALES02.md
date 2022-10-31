@@ -2,6 +2,17 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+# BANANA TALES CHALLENGE 104 - STRINGS
+```
+#open gate[0] and gate[2]
+#gate[1] and gate[3] are open already
+password = "ab" + gates[0].code + "yz"
+gates[0].open(password)
+
+password = "ab" + gates[2].code + "yz"
+gates[2].open(password)
+```
+
 # BANANA TALES CHALLENGE 103 - STRINGS
 
 ```
