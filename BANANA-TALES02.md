@@ -20,16 +20,14 @@ for c in code: password = c + password
 gate_3.open(password)
 ```
 
-
+```
 #two star solution
 password = ""
-
 code = gate_3.code
-
 for c in code:
     password = c + password
-    print(password)
 gate_3.open(password)
+```
 
 # BANANA TALES CHALLENGE 105 - STRINGS
 
