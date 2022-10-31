@@ -2,6 +2,20 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+#BANANA TALES: CHALLENGE 98 - INTEGERS
+
+```
+snake.length = 2
+# Any input entered is a string, even digits.
+# int() converts it to a number.
+height = int(input("Enter the giraffes's height: "))
+
+# Use height to change the giraffe's height
+
+giraffe.height = height
+```
+
+
 #BANANA TALES: CHALLENGE 97 - INPUT
 
 ```
