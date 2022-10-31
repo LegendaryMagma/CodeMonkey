@@ -5,6 +5,8 @@ Before starting these lessons watch:
 #BANANA TALES: CHALLENGE 95 - INPUT
 
 ```
+# this puzzle requires 'down' be inputed to complete
+# the pigeon takes off and lands randomly.  If the pigeon doesn't land on the ground then the puzzle will not complete
 snake.length = 2
 
 print("Type 'up' or 'down'")
@@ -16,7 +18,7 @@ else:
     height = 4
     
 giraffes[0].height = height
-giraffes[1].height = 
+giraffes[1].height = height
 ```
 
 
