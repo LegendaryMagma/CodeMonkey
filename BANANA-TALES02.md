@@ -3,7 +3,36 @@ Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
 
-#BANANA TALES: CHALLENGE 91 - CLASSES
+#BANANA TALES: CHALLENGE 92 - CLASSES
+```
+class Drill:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def drill_right(self, count):
+        self.x = self.x + count
+    
+
+drill_1 = Drill(2, 10)
+drill_2 = Drill(2, 11)
+drill_3 = Drill(10,12)
+drill_4 = Drill(10,13)
+# Define two instances of Drill.
+
+
+
+# Count how many brick walls each drill needs to drill.
+drill_1.drill_right(4)
+drill_2.drill_right(7)
+drill_3.drill_right(3)
+drill_4.drill_right(5)
+```
+
+
+
+
+
 ````
 class Drill:
     def __init__(self, x, y):
