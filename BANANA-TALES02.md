@@ -16,6 +16,15 @@ gates[2].open(password)
 ```
 
 # BANANA TALES CHALLENGE 106 - STRINGS
+```
+#three star solution
+password = ""
+code = gate_3.code
+for c in code: password = c + password
+gate_3.open(password)
+```
+
+
 #two star solution
 password = ""
 
