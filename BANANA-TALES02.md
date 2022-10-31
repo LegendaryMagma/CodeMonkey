@@ -2,6 +2,29 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+#BANANA TALES: CHALLENGE 97 - INPUT
+
+```
+# if the pigeon lands on the ground you must input 'down' to be able to complete the puzzle
+# if the pigeon lands on the middle platform you must input 'middle' to be able to complete the puzzle
+# if the pigeon lands on the uppder platform you must input 'up' to be able to complete the puzzle
+
+snake.length = 1
+
+answer = input("Type 'up', 'down' or 'middle': ")
+
+if answer == 'up':
+    height = 8
+elif answer == 'down':
+    height = 2
+else:
+    height = 5
+
+for giraffe in giraffes:
+    giraffe.height = height
+```
+
+
 #BANANA TALES: CHALLENGE 96 - INPUT
 
 ```
