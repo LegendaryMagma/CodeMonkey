@@ -2,6 +2,15 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+# BANANA TALES CHALLENGE 101 - INTEGERS
+```
+snake.length = 2
+
+# Get the index of the giraffe and the desired height
+for index in range(0,4):
+    index = int(input("Enter the girffe's index: "))
+    giraffes[index].height = int(input("Enter the giraffes's height: "))
+```
 
 # BANANA TALES CHALLENGE 100 - INTEGERS
 
