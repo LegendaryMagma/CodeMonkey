@@ -13,12 +13,12 @@ class Drill:
     def drill_right(self, count):
         self.x = self.x + count
     
-
+# Define FOUR instances of Drill.
 drill_1 = Drill(2, 10)
 drill_2 = Drill(2, 11)
 drill_3 = Drill(10,12)
 drill_4 = Drill(10,13)
-# Define two instances of Drill.
+
 
 
 
