@@ -202,14 +202,14 @@ gates[2].open(password)
 
 # BANANA TALES CHALLENGE 103 - STRINGS
 
-```
-#HINTS
-#1.The operator + concatenates (adds) two strings into one: "a" + "b" becomes "ab".
-#2.All passwords are built out of the code, using the same pattern.
-#3.Look at the open gates to find out how to build the closed gate password, from the code.
-#4.In this challenge, the password is the gate's code + the string "abc".
-#5.Change the string "aaa" to "abc".
 
+HINTS  
+1.The operator + concatenates (adds) two strings into one: "a" + "b" becomes "ab".  
+2.All passwords are built out of the code, using the same pattern.  
+3.Look at the open gates to find out how to build the closed gate password, from the code.  
+4.In this challenge, the password is the gate's code + the string "abc".  
+5.Change the string "aaa" to "abc".  
+```
 # Build the password for gate_2.
 password = gate_2.code + "abc"
 gate_2.open(password)
