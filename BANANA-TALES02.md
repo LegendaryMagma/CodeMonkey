@@ -10,6 +10,7 @@ Before starting these lessons watch:
 
 ```
 
+```
 #two star solution
 for gate in gates:
     code = gate.code
