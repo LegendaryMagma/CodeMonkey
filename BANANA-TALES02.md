@@ -5,7 +5,7 @@ Before starting these lessons watch:
 
 # BANANA TALES CHALLENGE 111 - DICTIONARY
 
-Hints
+Hints  
 1.In the dictionary challenges, you cannot build the password based on the gate's code. The rat will help you!  
 2.The function get_passwords() returns a dictionary of codes and passwords of the closed gates.  
 3.A dictionary is a collection of keys and values. It is written with curly brackets {}.  
