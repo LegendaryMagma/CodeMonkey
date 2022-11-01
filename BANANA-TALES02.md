@@ -8,7 +8,7 @@ Before starting these lessons watch:
 Hints  
 1.In the dictionary challenges, you cannot build the password based on the gate's code. The rat will help you!  
 2.The function get_passwords() returns a dictionary of codes and passwords of the closed gates.  
-3.A dictionary is a collection of keys and values. It is written with curly brackets {}.  
+3.A dictionary is a collection of keys and values. It is written with curly brackets {}.  eg. {'earth': 'tvupp'}
 4.The function get_passwords() returns a dictionary, where the keys are the gates' codes; the values are the gates' passwords.  
 5.To get the value of a specific key, use the key inside square brackets [].  
 6.To get the password of gate_1, use: codes_and_passwords[gate_1.code].  
