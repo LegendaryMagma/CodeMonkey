@@ -15,7 +15,7 @@ for gate in gates:
     code = gate.code
     r = len(code)
     password = ""
-# reverse password + code[index] to code[index] + password get the word in reverse!
+#reverse password + code[index] to code[index] + password get the word in reverse!
     for index in range(r): password = code[index] + password
     gate.open(password)
 ```
