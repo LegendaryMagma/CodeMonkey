@@ -2,6 +2,26 @@
 Before starting these lessons watch:
 [Everything you need to know about Classes in Python! (Object Oriented Programming Tutorial)](https://www.youtube.com/watch?v=tmY6FEF8f1o)
 
+# BANANA TALES CHALLENGE 110 - STRINGS
+
+
+```
+#three star solution - 5 lines or less of code
+
+```
+
+#two star solution
+for gate in gates:
+    code = gate.code
+    r = len(code)
+    password = ""
+# reverse password + code[index] to code[index] + password get the word in reverse!
+    for index in range(r): password = code[index] + password
+    gate.open(password)
+```
+
+
+
 # BANANA TALES CHALLENGE 109 - STRINGS
 
 ```
