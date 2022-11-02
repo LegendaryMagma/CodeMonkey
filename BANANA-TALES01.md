@@ -1,3 +1,6 @@
+[Banana Tales Part 1 - Python - Coding Concepts](https://help.codemonkey.com/en/articles/4915938-banana-tales-part-1-python-coding-concepts)
+
+
 # BANANA TALES: CHALLENGE 87 - FUNCTIONS
 ````
 def handle_obstacle(obstacle):
