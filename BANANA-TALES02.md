@@ -4,6 +4,32 @@ Before starting these lessons watch:
 
 [Banana Tales Part 2 - Python - Coding Concepts](https://help.codemonkey.com/en/articles/5177159-banana-tales-part-2-python-coding-concepts#h_0d3ab1b318)
 
+# BANANA TALES CHALLENGE 116 - DICTIONARY
+```
+codes_and_passwords = rat.get_passwords()
+# This code adds the missing password to the dictionary.
+password = 'a' + gates[7].code + 'z'
+codes_and_passwords[gates[7].code] = password
+for gate in gates:
+    if gate.code in codes_and_passwords:
+        password = codes_and_passwords[gate.code]
+        gate.open(password)
+```
+
+# BANANA TALES CHALLENGE 115 - DICTIONARY
+
+```
+#code exactly the same as previous solution
+#there are simply more gates!
+codes_and_passwords = rat.get_passwords()
+print(codes_and_passwords)
+for gate in gates:
+    if gate.code in codes_and_passwords:
+        password = codes_and_passwords[gate.code]
+        gate.open(password)
+```
+
+
 # BANANA TALES CHALLENGE 114 - DICTIONARY
 
 ```
