@@ -4,6 +4,30 @@ Before starting these lessons watch:
 
 [Banana Tales Part 2 - Python - Coding Concepts](https://help.codemonkey.com/en/articles/5177159-banana-tales-part-2-python-coding-concepts#h_0d3ab1b318)
 
+#BANANA TALES: CHALLENGE 131 - 2D LISTS
+```
+clouds[1][0] = None
+clouds[1][2] = None
+clouds[2][0] = Cloud()
+```
+
+#BANANA TALES: CHALLENGE 130 - 2D LISTS
+```
+clouds[0][1] = Cloud()
+clouds[0][5] = Cloud()
+clouds[0][6] = Cloud()
+```
+
+# BANANA TALES CHALLENGE 128 -TUPLE
+```
+colors = ("green","blue","red","gold","white","gray")
+for color in basket_1.balloon_colors:
+    if color not in colors:basket_1.balloon_colors.remove(color)
+for color in basket_2.balloon_colors:
+    if color not in colors:basket_2.balloon_colors.remove(color)
+for color in colors:basket_3.balloon_colors.add(color)
+for color in colors:basket_4.balloon_colors.add(color)
+```
 
 # BANANA TALES CHALLENGE 127 -TUPLE
 ```
