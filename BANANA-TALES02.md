@@ -4,6 +4,15 @@ Before starting these lessons watch:
 
 [Banana Tales Part 2 - Python - Coding Concepts](https://help.codemonkey.com/en/articles/5177159-banana-tales-part-2-python-coding-concepts#h_0d3ab1b318)
 
+# BANANA TALES CHALLENGE 121 - SET
+
+```
+for basket in baskets:
+    basket.balloon_colors.add("green")
+    basket.balloon_colors.add("yellow")
+
+```
+
 # BANANA TALES CHALLENGE 120 - SET
 
 ```
