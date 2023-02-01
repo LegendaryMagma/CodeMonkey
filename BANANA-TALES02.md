@@ -4,6 +4,23 @@ Before starting these lessons watch:
 
 [Banana Tales Part 2 - Python - Coding Concepts](https://help.codemonkey.com/en/articles/5177159-banana-tales-part-2-python-coding-concepts#h_0d3ab1b318)
 
+
+# BANANA TALES CHALLENGE 127 -TUPLE
+```
+basic_colors = ("green", "blue", "red", "yellow")
+
+for color in basket_1.balloon_colors:
+    if color not in basic_colors:
+        basket_1.balloon_colors.remove(color)
+        
+# Remove the colors that are not in basic_colors
+# from basket_2
+for color in basket_2.balloon_colors:
+    if color not in basic_colors:
+        basket_2.balloon_colors.remove(color)
+```
+
+
 # BANANA TALES CHALLENGE 126 -TUPLE
 ```
 new_colors = ("white", "black", "pink", "purple", "orange")
