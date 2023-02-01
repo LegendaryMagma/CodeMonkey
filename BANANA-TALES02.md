@@ -4,6 +4,45 @@ Before starting these lessons watch:
 
 [Banana Tales Part 2 - Python - Coding Concepts](https://help.codemonkey.com/en/articles/5177159-banana-tales-part-2-python-coding-concepts#h_0d3ab1b318)
 
+# BANANA TALES CHALLENGE 120 - SET
+
+```
+baskets[1].balloon_colors.add("yellow")
+for index in range(-1,4):
+    baskets[index].balloon_colors.add("green")
+    baskets[index].balloon_colors.add("red")
+baskets[0].balloon_colors.pop()
+```
+
+
+
+
+# BANANA TALES CHALLENGE 119 - SET
+
+```
+# Note the following line of code exists in the setup.py: basket = Basket(11, 10, ["red"]) which explains why there are actually three different coloured balloons
+
+basket.balloon_colors.add("yellow")
+
+# Add another colored balloon to lift the basket.
+basket.balloon_colors.add("green")
+```
+
+
+# BANANA TALES CHALLENGE 118 - SET
+
+```
+# The balloon_colors is a set. 
+# Each color can appear in it only once.
+
+basket.balloon_colors.add("blue")
+
+basket.balloon_colors.add("yellow")
+
+# Change it to a green balloon, to be added to the basket.
+basket.balloon_colors.add("green")
+```
+
 # BANANA TALES CHALLENGE 117 - DICTIONARY
 
 ```
