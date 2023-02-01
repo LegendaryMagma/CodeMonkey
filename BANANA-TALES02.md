@@ -4,6 +4,46 @@ Before starting these lessons watch:
 
 [Banana Tales Part 2 - Python - Coding Concepts](https://help.codemonkey.com/en/articles/5177159-banana-tales-part-2-python-coding-concepts#h_0d3ab1b318)
 
+# BANANA TALES CHALLENGE 126 -TUPLE
+```
+new_colors = ("white", "black", "pink", "purple", "orange")
+for index in range(-1,5):
+    for color in new_colors:
+        print(color)
+        baskets[index].balloon_colors.add(color)
+```
+
+# BANANA TALES CHALLENGE 125 -TUPLE
+```
+new_colors = ("red", "blue", "green", "purple", "yellow")
+
+for color in new_colors:
+    print(color)
+    baskets[0].balloon_colors.add(color)
+for color in new_colors:
+    print(color)
+    baskets[1].balloon_colors.add(color)
+```
+
+# BANANA TALES CHALLENGE 124 -TUPLE
+```
+new_colors = ("blue", "yellow", "brown", "red", "white", "green", "gray")
+
+for color in new_colors:
+    print(color)
+    basket_1.balloon_colors.add(color) 
+```
+
+# BANANA TALES CHALLENGE 123 -SET
+```
+for index in range(0,4):
+    color = baskets[0].balloon_colors.pop()
+    print(color)
+    baskets[1].balloon_colors.add(color)
+```
+
+
+
 # BANANA TALES CHALLENGE 122 -SET
 ```
 for basket in baskets:
